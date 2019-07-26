@@ -26,6 +26,10 @@ dependencies {
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("io.projectreactor:reactor-test")
+    testImplementation ("org.junit.jupiter:junit-jupiter-engine:5.5.0")
+    testImplementation("io.mockk:mockk:1.9.3")
+    testImplementation("de.flapdoodle.embed:de.flapdoodle.embed.mongo")
+    testImplementation("org.springframework.kafka:spring-kafka-test")
 }
 
 tasks.withType<KotlinCompile> {
